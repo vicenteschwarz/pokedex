@@ -121,6 +121,7 @@ header h1 {
 .type-badge.ice { background-color: #E0F2F7; color: #9AD6DF; }
 .type-badge.flying { background-color: #F5F5DC; color: #A98FF3; } /* Adicionado para Charizard e Articuno */
 .type-badge.poison { background-color: #F8DAF8; color: #A33EA1; } /* Adicionado para Venusaur */
+.type-badge.thunder { background-color: black; color: yellow;}
 
 
 footer {
