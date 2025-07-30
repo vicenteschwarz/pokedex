@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 145,
             name: 'Zapdos',
             image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEireF6AwejUWhjY8yxKwp3Nb_idnY_ijITMXZCd0h9R-xHt8LafVl7UEqquLgZG3XMesfBAEiAE2dyA8mw5HLb598LIl-77xSFcxWYoWJy8NeKo1EoGanZyzGdubfMNndnXh2PcvsOwYigl/s1600/zapdos_v_2_by_xous54-d5j7pes.png',
-            types: ['thunder', 'flying']
+            types: ['eletric', 'flying']
         },
         {
             id: 146,
