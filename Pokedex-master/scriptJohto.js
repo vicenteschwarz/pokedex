@@ -7,43 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Venusaur',
             image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png',
             types: ['grass', 'poison']
-        },
-        {
-            id: 4,
-            name: 'Charmander',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
-            types: ['fire']
-        },
-        {
-            id: 6,
-            name: 'Charizard',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
-            types: ['fire', 'flying']
-        },
-        {
-            id: 9,
-            name: 'Blastoise',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png',
-            types: ['water']
-        },
-        {
-            id: 65,
-            name: 'Alakazam',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png',
-            types: ['psychic']
-        },
-        {
-            id: 144,
-            name: 'Articuno',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png',
-            types: ['ice', 'flying']
-        },
-        {
-            id: 150,
-            name: 'Mewtwo',
-            image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png',
-            types: ['psychic']
-        }
+        } 
     ];
 
     const createPokemonCard = (pokemon) => {
