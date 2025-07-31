@@ -23,6 +23,33 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Novo h1 fora do header */
+h1:not(header h1) {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #cc0000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo pro link "Ir para Johto" */
+a {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 .pokedex-container {
     display: flex;
     flex-wrap: wrap;
@@ -121,7 +148,6 @@ header h1 {
 .type-badge.ice { background-color: #E0F2F7; color: #9AD6DF; }
 .type-badge.flying { background-color: #F5F5DC; color: #A98FF3; } /* Adicionado para Charizard e Articuno */
 .type-badge.poison { background-color: #F8DAF8; color: #A33EA1; } /* Adicionado para Venusaur */
-
 
 footer {
     background-color: #333;
